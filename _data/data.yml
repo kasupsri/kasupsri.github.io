@@ -1,0 +1,361 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: left # position of the sidebar : left or right
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Lilanga Gamage
+    tagline: Senior Software Engineer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: lilanga@live.com
+    phone: 0493329887
+    timezone:
+    citizenship:
+    website: blog.lilanga.me
+    linkedin: lilanga
+    xing:
+    github: Lilanga
+    telegram:
+    gitlab:
+    bitbucket:
+    twitter: '@lilanga_g'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf:
+
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: Professional
+
+    interests:
+      title: Interests
+      info:
+        - item: Cycling
+          link:
+
+        - item: Inline Skating
+          link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      An experienced software engineer passionate about contributing to crafting the best software products, be hands-on in developing novel solutions with research and development. 
+      Played various roles in technical teams such as Solution Architect, Senior software / Cloud engineer, Tech team lead. 
+      Passionate for trying out new technologies. Keen to follow engineering best practices.
+education:
+    title: Education
+    info:
+      - degree: BSc (Hons.) in Computer Science
+        university: SLIIT
+        time: 2006 - 2010
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
+experiences:
+    title: Work Experience
+    info:
+      - role: Senior Analyst programmer
+        time: September 2022 - Present
+        company: HCF - Australia
+        details: |
+          HCF is the Australia's Largest Not-for-Profit Health Fund. They are the Winner of the Canstar Outstanding Value Health Insurance Award for Seven Straight Years.
+
+          **Responsibilities:**
+        
+          - Developing, and adding enhancements to micro-services running on Heroku and API suite written to integrate Salesforce marketing cloud and Salesforce.
+          - Identify performance bottlenecks, improve codebases, address tech debts.
+          - Implement engineering best practices, proper CI CD mechanism.
+
+          **Technical Stack:**
+        
+          `Cloud technologies:` AWS, Heroku, Salesforce cloud and marketing cloud Microservices: NodeJS, RabbitMQ
+
+          `Frontends:` ReactJS
+
+          `Databases:` PostgreSQL, Redis
+          
+          `CI CD:` GitHub actions, Heroku pipelines
+
+      - role: Senior Consultant / Solutions Architecture
+        time: March 2022 to September 2022
+        company: Palo-IT - Singapore
+        details: |
+          Palo IT is a global innovation consultancy firm working with the latest technologies to help organizations embrace change.
+          Palo IT values Best of design thinking, Agile development methodologies with DevOPs culture to help their client to run their digital transformation effectively and efficiently.
+
+          ##### Responsibilities:
+        
+          - Design and develop solutions, application features, Code reviews.
+          - Design automation, CI, CD strategies, build systems, artifact repositories, infrastructure as code and implementation, Assisted DevOps to implement engineering best practices.
+
+          ##### Technical Stack:
+        
+          `Cloud technologies:` Azure, AWS, Docker, Kubernetes, Terraform, Serverless, Cloud watch, Prometheus, Istio
+
+          `Microservices:` Java, NodeJS using JavaScript and TypeScript, Golang
+
+          `APIs:` Kong API gateway, REST API, powered by Java, NodeJS
+
+          `Frontends:` ReactJS
+          
+          `Databases:` PostgreSQL, Aurora, Redis, MongoDB, Timescale DB CI CD: Azure DevOps, GitHub actions, SonarQube, Snyk
+
+      - role: Solutions Architect
+        time: November 2019 to February 2022
+        company: Electrify - Singapore
+        details: |
+          Electrify is a Singapore-based peer-to-peer green-energy energy trading company dedicated to solving tough challenges in decentralized energy distribution for the next generation with innovative solutions.
+
+          ##### Responsibilities:
+        
+          - Design and develop microservices while ensuring scalability, observability, and uptime, peer code reviews, review solutions and designs.
+          - Design solution architectures and integration architectures, considering scalability, security, risks, costs, and benefits.
+          - Design automation, CI, CD strategies, build systems, artifact repositories, infrastructure as code and implementation, Implementing engineering best practices.
+
+          ##### Technical Stack:
+        
+          `Cloud technologies:` AWS (GCP, ECR, GCR, Lambda, Cloud watch, WAF, SQS, SNS, Cloud IoT Core) GCP (Pub- Sub, Cloud Run, Events hub, IoT Core), Docker, Kubernetes, Terraform, Serverless Stack
+
+          `Microservices:` Golang, NodeJS, with NATS message queues
+
+          `APIs:` API gateways, REST API, gRPC, MQTT, Modbus, GraphQL API powered by Golang and NodeJS
+
+          `Frontends:` ReactJS
+          
+          `Databases:` PostgreSQL, DynamoDB, Aurora, Redis, MongoDB, Influx DB, Timescale DB
+
+          `CI CD:` Bitbucket, Bitbucket pipelines, Gitlab pipelines, SonarQube
+
+      - role: Senior Software Engineer
+        time: July 2019 to November 2019
+        company: Lexro Pvt Ltd. - Singapore|Sri Lanka
+        details: |
+          Lexro is an IT consulting firm that offers expert assistance with clients' technical innovations.
+
+          ##### Responsibilities:
+        
+          - Coding modules, refining solution architectures, helping migrate the client's existing products to scalable and flexible solutions by cleaning up design barriers and adopting scalable technical stacks.
+          - Automate environment provisioning using Infrastructure as Code Technologies (Serverless + CloudFormation / Terraform)
+          - Move applications from AWS EC2 instances to Kubernetes clusters, revamp and containerize solutions.
+          - Implement proper branching strategies, Build pipelines, CI, CD, static code analysis, and dynamic code analysis.
+
+          ##### Technical Stack:
+        
+          `Cloud technologies:` AWS, EKS, ECR, Kubernetes, Grafana, WAF, SQS, SNS, S3, Secret manager, Systems Manager
+
+          `Microservices:` Golang, NodeJS
+
+          `APIs:` Golang, Java
+
+          `Frontends:` ReactJS
+          
+          `Databases:` PostgreSQL, DynamoDB, Aurora, Influx DB
+
+          `CI CD:` Bitbucket, Bitbucket pipelines, SonarQube
+
+      - role: Technical Specialist | Senior Software Engineer
+        time: July 2014 to July 2019
+        company: Pearson Lanka (Pvt) Ltd. USA|Sri Lanka
+        details: |
+          Pearson is an international FTSE 100 company that is the world's leading provider of online learning systems and learning content offerings.
+          Worked for MathXL team, which is Pearson's most significant and highest revenue generation product, providing a whole package of online learning solutions to universities and individuals. 
+          The platform has 6.5 million users based, with an average of 1.4 million active users on peak usage durations.
+
+          ##### Responsibilities:
+        
+          - Owned, designed, and developed full-stack modules with selecting eligible tech stacks.
+          - Plan, design and implement build automation to facilitate continuous releases, continuous integrations, code quality reporting, branching strategies.
+          - Identify performance bottlenecks, security enhancements, maintainability enhancements, plan remediations, implementation.
+          - Responsible for identifying necessary integration points and custom development approaches, their work estimations, task breakdowns.
+          - Responsible for researching, documenting, and implementing processes for removing deprecated libraries, improving code quality, mitigating vulnerabilities, and addressing identified issues effectively.
+          - Traveled to offshore offices when needed and worked with offshore teams on implementing features and product enhancements. Worked with Microsoft's field engineers to identify the product's performance bottlenecks and possible remediations.
+          - Be a member of the Engineering Best Practices Team (EBP), responsible for good coding ethics and industry standards. Held training sessions to improve development culture as necessary.
+
+          ##### Technical Stack:
+        
+          `Cloud technologies:` AWS, ECS, Kubernetes, SQS, Grafana, Heroku
+
+          `Microservices:` Golang, Java, .NET Core, RabbitMQ message bus / AMQP
+
+          `APIs:` Java / Spring Boot, C#
+
+          `Frontends:` ReactJS, AngularJS (v 1.0, v 1.1)
+          
+          `Databases:` PostgreSQL, DynamoDB, Aurora, MSSQL
+
+          `CI CD:` Bitbucket, Bitbucket pipelines, SonarQube, Nexus, Checkmarx
+
+      - role: Senior Software Engineer
+        time: June 2013 to June 2014
+        company: Mobile App Mart (Pvt) Ltd. UK|Sri Lanka
+        details: |
+          Mobile App Mart is a UK London-based software Development Company that uses Mobile Development technologies and ASP.NET MVC/Web API-related .NET technologies as core technologies.
+
+          ##### Responsibilities:
+        
+          - Responsible for addressing tech debts, improving codebase by removing legacy technologies, and enforcing coding standards.
+          - Provide technical consultancy for the development team on functionality changes/requirement refining and select proper technology stacks by reviewing client's requirements.
+          - Responsible for developing the core module, service layer modules, front ends with new functionalities.
+          - Research and develop proof-of-concept solutions to refine business requirements by translating stakeholders' interests.
+
+      - role: Software Engineer
+        time: November 2009 to June 2013
+        company: Navantis (Pvt) Ltd. Canada|Sri Lanka
+        details: |
+          Navantis is a Canadian-based IT solution provider for all Microsoft enterprise solution needs. 
+          Which is an award-winning IT Solution provider of premium high-value IT solutions and services and delivering exceptional customer service and high-performing business solutions through the precision use of Microsoft technology with offices in North America and South Asia.
+
+          ##### Responsibilities:
+        
+          - Developed services, integration points, and front-end modules.
+          - Peer code reviews by following best practices and coding standards.
+          - Analyze client requirements, development effort estimations, design, and develop solutions utilizing available APIs. Integrating with other developed solutions using standardized API/Contracts; develops end-to-end functionality of owned sections/modules.
+          - Research and develop proof-of-concept solutions to refine business requirements by translating stakeholders' interests.
+
+certifications:
+      title: Professional certifications
+      list:
+        - name: AWS Solutions Architect Associate
+          start:
+          end:
+          organization: Amazon Web Services
+          credentialid: SAA-C02
+          credentialurl:
+          credentialname: AWS
+          details: |
+
+        - name: Microsoft Certified Professional Developer
+          start:
+          end:
+          organization: Microsoft
+          credentialid: MCPD
+          credentialurl:
+          credentialname: Microsoft
+          details: |
+
+        - name: Microsoft Certified Technology Specialist
+          start:
+          end:
+          organization: Microsoft
+          credentialid: MCTS
+          credentialurl:
+          credentialname: Microsoft
+          details: |
+
+projects:
+    title: Technical Stack
+    intro: >
+      Following are the technology stacks I have worked with during my career.
+    assignments:
+      - title: Frontend Technologies
+        link: 
+        tagline: "ReactJS, TypeScript, AngularJS, Angular"
+
+      - title: Mobile Technologies
+        link:
+        tagline: "Objective-C, React-Native, Xamarin"
+
+      - title: General Languages
+        link:
+        tagline: "C#, Java, Golang, Python, NodeJS"
+
+      - title: Other Frameworks
+        link:
+        tagline: "SOA, Microservices, GraphQL, RESTful Services"
+
+      - title: Persistence Technologies
+        link:
+        tagline: "MSSQL, Oracle Database, Redis, Memcached, MongoDB"
+      
+      - title: Project management tools
+        link:
+        tagline: "JIRA, Confluence, Trello"
+
+      - title: Version Control System
+        link:
+        tagline: "Bitbucket, Perforce, SVN, GIT, TFS"
+
+      - title: Deployment tools
+        link:
+        tagline: "Bitbucket pipelines, Jenkins, GoCD, CodeDeploy"
+
+      - title: Microsoft Technologies
+        link:
+        tagline: " ASP.NET, .NET Core, C#, Web API, Entity Framework"
+
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+    title: Achievements
+    intro: |
+      Following are my achievements during my career.
+    papers:
+      - title: Speaking at AWS Innovate – Modern application edition (2021), presentation on utilizing serverless stacks/micro-services
+
+      - title: Community contributions - Provided Trainings on software engineering for SL Army, Air Force tech teams
+
+      - title: Lecturers’ refresher program contribution(2017, 2018) to SLIIT Campus – help to revamp the Software engineering syllabus
+
+      - title: Hackathon panelists of SLIIT hackathon events (2016, 2017)
+
+      - title: Contributor of Pearson Tech summit (2018)
+
+      - title: Received Best Canadian Microsoft partner Unified Communication Solution (IMPACT award) for the project done for Goodman Law Firm, Canada (2011)
+
+      - title: Won Navantis 'You Rock' peer excellence award twice. (2011, 2012)
+
+      - title: Won the Pan Pearson hackathon of 2015 under the sales category (2015)
+
+      - title: Won Pearson Discovery day best solution (2018)
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: NodeJS, Typescript & Javascript
+        level: 95%
+
+      - name: ReactJS, NextJS
+        level: 90%
+
+      - name: Golang
+        level: 85%
+
+      - name: Java, Spring Boot
+        level: 75%
+
+      - name: Python, C#
+        level: 60%
+
+footer: >
