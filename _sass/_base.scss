@@ -197,7 +197,7 @@ p {
     font-size: 16px;
     margin-top: 0;
     margin-bottom: 0;
-    font-weight: 500;
+    font-weight: 600;
     flex: 75%;
   }
   .time,
@@ -216,12 +216,21 @@ p {
   }
 
   .project-title {
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 600;
     margin-top: 0;
     margin-bottom: 5px;
     color: darken($theme-color, 15%);
   }
+  .project-tagline {
+    font-weight: 500;
+    color: darken($text-color-secondary,15%);
+    margin-bottom: 10px;
+    &:hover {
+      color: darken($theme-color, 30%);
+    }
+  }
+
   .projects-section {
     .intro {
       margin-bottom: 30px;

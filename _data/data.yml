@@ -5,7 +5,7 @@
 sidebar:
     position: left # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Lilanga Gamage
@@ -55,20 +55,17 @@ education:
     title: Education
     info:
       - degree: BSc (Hons.) in Computer Science
-        university: SLIIT
+        university: Sri Lanka Institute of Information Technology (SLIIT)
         time: 2006 - 2010
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Completed a rigorous BSc (Hons.) program in Computer Science at SLIIT and acquired a comprehensive understanding of computer science principles, programming languages, data structures, algorithms, and software engineering.
+          
+          Engaged in collaborative projects, enhancing teamwork and problem-solving skills, actively pursued knowledge of emerging technologies and industry trends through workshops and seminars.
+
 experiences:
     title: Work Experience
     info:
-      - role: Senior Analyst programmer
+      - role: Senior Analyst Programmer
         time: September 2022 - Present
         company: HCF - Australia
         details: |
@@ -76,19 +73,21 @@ experiences:
 
           **Responsibilities:**
         
-          - Developing, and adding enhancements to micro-services running on Heroku and API suite written to integrate Salesforce marketing cloud and Salesforce.
-          - Identify performance bottlenecks, improve codebases, address tech debts.
-          - Implement engineering best practices, proper CI CD mechanism.
+          - Developed and added enhancements to microservices deployed on Heroku and API suite integrating Salesforce Marketing Cloud and Salesforce.
+          - Identified performance bottlenecks, improved codebases, and addressed technical debts.
+          - Implemented engineering best practices and established a proper CI/CD mechanism.
 
-          **Technical Stack:**
+          <!-- **Technical Stack:**
         
-          `Cloud technologies:` AWS, Heroku, Salesforce cloud and marketing cloud Microservices: NodeJS, RabbitMQ
+          `Cloud technologies:` AWS, Heroku, Salesforce cloud and marketing cloud 
+          
+          `Microservices:` NodeJS, RabbitMQ
 
           `Frontends:` ReactJS
 
           `Databases:` PostgreSQL, Redis
           
-          `CI CD:` GitHub actions, Heroku pipelines
+          `CI CD:` GitHub actions, Heroku pipelines -->
 
       - role: Senior Consultant / Solutions Architecture
         time: March 2022 to September 2022
@@ -99,10 +98,10 @@ experiences:
 
           ##### Responsibilities:
         
-          - Design and develop solutions, application features, Code reviews.
-          - Design automation, CI, CD strategies, build systems, artifact repositories, infrastructure as code and implementation, Assisted DevOps to implement engineering best practices.
+          - Designed and developed solutions and application features, while conducting code reviews.
+          - Provided support in implementing IoT-based proof-of-concept solutions as research projects.
 
-          ##### Technical Stack:
+          <!-- ##### Technical Stack:
         
           `Cloud technologies:` Azure, AWS, Docker, Kubernetes, Terraform, Serverless, Cloud watch, Prometheus, Istio
 
@@ -112,7 +111,7 @@ experiences:
 
           `Frontends:` ReactJS
           
-          `Databases:` PostgreSQL, Aurora, Redis, MongoDB, Timescale DB CI CD: Azure DevOps, GitHub actions, SonarQube, Snyk
+          `Databases:` PostgreSQL, Aurora, Redis, MongoDB, Timescale DB CI CD: Azure DevOps, GitHub actions, SonarQube, Snyk -->
 
       - role: Solutions Architect
         time: November 2019 to February 2022
@@ -122,11 +121,11 @@ experiences:
 
           ##### Responsibilities:
         
-          - Design and develop microservices while ensuring scalability, observability, and uptime, peer code reviews, review solutions and designs.
-          - Design solution architectures and integration architectures, considering scalability, security, risks, costs, and benefits.
-          - Design automation, CI, CD strategies, build systems, artifact repositories, infrastructure as code and implementation, Implementing engineering best practices.
+          - Designed and developed microservices, overseeing peer code reviews.
+          - Developed solution architectures and integration architectures with a focus on scalability, security, risks, costs, and benefits.
+          - Implemented automation, CI/CD strategies, build systems, artifact repositories, and infrastructure as code, while adhering to engineering best practices.
 
-          ##### Technical Stack:
+          <!-- ##### Technical Stack:
         
           `Cloud technologies:` AWS (GCP, ECR, GCR, Lambda, Cloud watch, WAF, SQS, SNS, Cloud IoT Core) GCP (Pub- Sub, Cloud Run, Events hub, IoT Core), Docker, Kubernetes, Terraform, Serverless Stack
 
@@ -138,7 +137,7 @@ experiences:
           
           `Databases:` PostgreSQL, DynamoDB, Aurora, Redis, MongoDB, Influx DB, Timescale DB
 
-          `CI CD:` Bitbucket, Bitbucket pipelines, Gitlab pipelines, SonarQube
+          `CI CD:` Bitbucket, Bitbucket pipelines, Gitlab pipelines, SonarQube -->
 
       - role: Senior Software Engineer
         time: July 2019 to November 2019
@@ -148,12 +147,11 @@ experiences:
 
           ##### Responsibilities:
         
-          - Coding modules, refining solution architectures, helping migrate the client's existing products to scalable and flexible solutions by cleaning up design barriers and adopting scalable technical stacks.
-          - Automate environment provisioning using Infrastructure as Code Technologies (Serverless + CloudFormation / Terraform)
-          - Move applications from AWS EC2 instances to Kubernetes clusters, revamp and containerize solutions.
-          - Implement proper branching strategies, Build pipelines, CI, CD, static code analysis, and dynamic code analysis.
+          - Enhanced solution architectures to facilitate the migration of the client's existing products to scalable and flexible solutions, effectively addressing business needs.
+          - Successfully migrated server-based solutions to Kubernetes clusters, containerizing and optimizing them for improved performance.
+          - Introduced a DevOps culture, incorporating infrastructure as code, build pipelines, and robust monitoring and alerting mechanisms.
 
-          ##### Technical Stack:
+          <!-- ##### Technical Stack:
         
           `Cloud technologies:` AWS, EKS, ECR, Kubernetes, Grafana, WAF, SQS, SNS, S3, Secret manager, Systems Manager
 
@@ -165,7 +163,7 @@ experiences:
           
           `Databases:` PostgreSQL, DynamoDB, Aurora, Influx DB
 
-          `CI CD:` Bitbucket, Bitbucket pipelines, SonarQube
+          `CI CD:` Bitbucket, Bitbucket pipelines, SonarQube -->
 
       - role: Technical Specialist | Senior Software Engineer
         time: July 2014 to July 2019
@@ -177,15 +175,12 @@ experiences:
 
           ##### Responsibilities:
         
-          - Owned, designed, and developed full-stack modules with selecting eligible tech stacks.
-          - Plan, design and implement build automation to facilitate continuous releases, continuous integrations, code quality reporting, branching strategies.
-          - Identify performance bottlenecks, security enhancements, maintainability enhancements, plan remediations, implementation.
-          - Responsible for identifying necessary integration points and custom development approaches, their work estimations, task breakdowns.
-          - Responsible for researching, documenting, and implementing processes for removing deprecated libraries, improving code quality, mitigating vulnerabilities, and addressing identified issues effectively.
-          - Traveled to offshore offices when needed and worked with offshore teams on implementing features and product enhancements. Worked with Microsoft's field engineers to identify the product's performance bottlenecks and possible remediations.
-          - Be a member of the Engineering Best Practices Team (EBP), responsible for good coding ethics and industry standards. Held training sessions to improve development culture as necessary.
+          - Designed and developed full-stack solutions using appropriate technology stacks in collaboration with onshore and offshore team members.
+          - Implemented build automation for continuous integration and deployment, code quality reporting, and branching strategies.
+          - Improved current-gen solutions by removing deprecated libraries and addressing technical debts.
+          - Contributed as a member of the Engineering Best Practices Team (EBP) to promote coding ethics and industry standards.
 
-          ##### Technical Stack:
+          <!-- ##### Technical Stack:
         
           `Cloud technologies:` AWS, ECS, Kubernetes, SQS, Grafana, Heroku
 
@@ -197,7 +192,7 @@ experiences:
           
           `Databases:` PostgreSQL, DynamoDB, Aurora, MSSQL
 
-          `CI CD:` Bitbucket, Bitbucket pipelines, SonarQube, Nexus, Checkmarx
+          `CI CD:` Bitbucket, Bitbucket pipelines, SonarQube, Nexus, Checkmarx -->
 
       - role: Senior Software Engineer
         time: June 2013 to June 2014
@@ -207,10 +202,10 @@ experiences:
 
           ##### Responsibilities:
         
-          - Responsible for addressing tech debts, improving codebase by removing legacy technologies, and enforcing coding standards.
-          - Provide technical consultancy for the development team on functionality changes/requirement refining and select proper technology stacks by reviewing client's requirements.
-          - Responsible for developing the core module, service layer modules, front ends with new functionalities.
-          - Research and develop proof-of-concept solutions to refine business requirements by translating stakeholders' interests.
+          - Addressed tech debts and improved the codebase by removing legacy technologies while enforcing coding standards.
+          - Provided technical consultancy to the development team for functionality changes and requirement refinement, selecting appropriate technology stacks based on client requirements.
+          - Developed core modules, service layer modules, and front ends with new functionalities.
+          - Conducted research and developed proof-of-concept solutions to refine business requirements by understanding stakeholders' interests.
 
       - role: Software Engineer
         time: November 2009 to June 2013
@@ -221,10 +216,9 @@ experiences:
 
           ##### Responsibilities:
         
-          - Developed services, integration points, and front-end modules.
-          - Peer code reviews by following best practices and coding standards.
-          - Analyze client requirements, development effort estimations, design, and develop solutions utilizing available APIs. Integrating with other developed solutions using standardized API/Contracts; develops end-to-end functionality of owned sections/modules.
-          - Research and develop proof-of-concept solutions to refine business requirements by translating stakeholders' interests.
+          - Developed full-stack solutions collaboratively with onshore and offshore team members and conducted peer code reviews.
+          - Analyzed client requirements, estimated development efforts, and designed and implemented solutions utilizing available APIs.
+          - Conducted research and created proof-of-concept solutions to enhance business requirements, aligning with stakeholders' interests.
 
 certifications:
       title: Professional certifications
@@ -259,43 +253,35 @@ certifications:
 projects:
     title: Technical Stack
     intro: >
-      Following are the technology stacks I have worked with during my career.
+      I have successfully worked with the following technology stacks throughout my career.
     assignments:
-      - title: Frontend Technologies
+      - title: "Cloud related stacks:"
         link: 
-        tagline: "ReactJS, TypeScript, AngularJS, Angular"
+        tagline: "AWS, GCP, Azure, Heroku, Docker, Kubernetes, Terraform, Grafana, Prometheus, ELK Stack, CloudFormation, Serverless Stack"
 
-      - title: Mobile Technologies
-        link:
-        tagline: "Objective-C, React-Native, Xamarin"
+      - title: "Frontend tech stacks:"
+        link: 
+        tagline: "ReactJS, TypeScript, NextJS, SASS, LESS, Tailwind CSS, Webpack"
 
-      - title: General Languages
+      - title: "Microservice tech stacks:"
         link:
-        tagline: "C#, Java, Golang, Python, NodeJS"
+        tagline: "Java, NodeJS, JavaScript, TypeScript, Golang, NATS, RabbitMQ, AMQP, Kafka, GraphQL, RESTful Services, gRPC, MQTT"
 
-      - title: Other Frameworks
+      - title: "Databases related tech stacks:"
         link:
-        tagline: "SOA, Microservices, GraphQL, RESTful Services"
+        tagline: "PostgreSQL, Aurora, DynamoDB, Aurora, Influx DB, Redis, MongoDB, Memcached, Timescale DB"
 
-      - title: Persistence Technologies
+      - title: "DevOps related tech stacks:"
         link:
-        tagline: "MSSQL, Oracle Database, Redis, Memcached, MongoDB"
+        tagline: "Bitbucket piplines, GoCD, ArgoCD, Azure DevOps, GitHub actions, SonarQube, Snyk, Nexus, Checkmarx"
       
-      - title: Project management tools
+      - title: "Project related tools:"
         link:
-        tagline: "JIRA, Confluence, Trello"
+        tagline: "JIRA, Confluence, Trello, Git, Bitbucket, GitHub, GitLab, Azure DevOps, Jenkins, Packer, Vagrant"
 
-      - title: Version Control System
+      - title: "Other programming framewroks:" 
         link:
-        tagline: "Bitbucket, Perforce, SVN, GIT, TFS"
-
-      - title: Deployment tools
-        link:
-        tagline: "Bitbucket pipelines, Jenkins, GoCD, CodeDeploy"
-
-      - title: Microsoft Technologies
-        link:
-        tagline: " ASP.NET, .NET Core, C#, Web API, Entity Framework"
+        tagline: "Spring Boot, .NET Core, ASP.NET MVC, ASP.NET Web API, ExpressJS, NestJS, Laravel, Phoenix, Django"
 
 # oss:
 #     title: OSS Contributions
