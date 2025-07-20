@@ -279,35 +279,33 @@ certifications:
 projects:
   title: Technical Stack
   intro: >
-    I have successfully worked with the following technology stacks throughout my career.
+    I have successfully delivered scalable cloud-native solutions using a broad spectrum of modern technologies and platforms.
   assignments:
-    - title: "Cloud related stacks:"
-      link: 
-      tagline: "Azure (Functions, Blob Storage, Cosmos DB, Virtual Machines, SQL Database, App Service, Event Grid, Kubernetes Service, Cognitive Services, DevOps, Azure AD, SendGrid, Service Bus), AWS (S3, EC2, RDS, Lambda, DynamoDB, CloudFormation, CloudFront, SQS, SNS, Elastic Beanstalk, Cognito), Docker, Kubernetes"
+    - title: "Cloud & Infrastructure:"
+      tagline: >
+        Azure (Functions, App Service, Cosmos DB, SQL Database, Kubernetes Service, Event Grid, Azure AD, Service Bus, DevOps),
+        AWS (S3, EC2, Lambda, DynamoDB, CloudFormation, Cognito),
+        Docker, Kubernetes, Serverless Architecture, Infrastructure as Code (IaC)
 
-    - title: "Frontend tech stacks:"
-      link: 
-      tagline: "React, Angular, HTML5, CSS, SASS, jQuery, Bootstrap, SPA architecture, OAuth2/OpenID Connect, Keycloak"
+    - title: "Backend & Microservices:"
+      tagline: >
+        .NET Core, ASP.NET Core, Go, Node.js, RESTful APIs, gRPC, MassTransit, Kafka, RabbitMQ, MQTT, Clean Architecture, DDD, TDD
 
-    - title: "Microservice tech stacks:"
-      link:
-      tagline: ".NET Core, ASP.NET Core, Node.js, Go, RabbitMQ, MQTTx, Kafka, RESTful APIs, LiveKit (SIP), Hangfire, Entity Framework, Clean Architecture, Domain-Driven Design (DDD)"
+    - title: "Frontend & SPA:"
+      tagline: >
+        React, Angular, TypeScript, HTML5, SCSS, Bootstrap, SPA Architecture, OAuth2/OpenID Connect, Keycloak
 
-    - title: "Databases related tech stacks:"
-      link:
-      tagline: "PostgreSQL, MS SQL, MongoDB"
+    - title: "Data & Storage:"
+      tagline: >
+        PostgreSQL, MS SQL Server, MongoDB, Redis, Entity Framework Core, Azure Cosmos DB
 
-    - title: "DevOps related tech stacks:"
-      link:
-      tagline: "Azure DevOps Pipelines, GitLab CI/CD, Git (GitHub, GitLab, Bitbucket), SVN, Docker, Kubernetes, CI/CD pipelines"
+    - title: "DevOps & CI/CD:"
+      tagline: >
+        Azure DevOps Pipelines, GitLab CI/CD, GitHub Actions, Git, Docker, Kubernetes, Helm, Monitoring with Prometheus & Grafana
 
-    - title: "Project related tools:"
-      link:
-      tagline: "JIRA, Confluence, Trello, Git, GitHub, GitLab, Bitbucket, Azure DevOps Boards"
-
-    - title: "Other programming frameworks:"
-      link:
-      tagline: ".NET Core, ASP.NET Core, Node.js, Entity Framework, Hangfire, LiveKit, Serverless Computing, Microservices Architecture, Test-Driven Development (TDD), Clean Architecture"
+    - title: "Tools & Project Management:"
+      tagline: >
+        JIRA, Confluence, Azure Boards, Trello, Postman, Swagger/OpenAPI, GitHub, GitLab, Bitbucket
 
 
 skills:
