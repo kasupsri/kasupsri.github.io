@@ -8,23 +8,23 @@ sidebar:
     education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Lilanga Gamage
+    name: Kasup Sri Bandara
     tagline: Senior Software Engineer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.JPG  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: lilanga@live.com
+    email: kasup.bandara@gmail.com
     phone: 
-    timezone:
-    citizenship:
-    website: bitsfactory.lilanga.me
-    linkedin: lilanga
+    timezone: "Australia/Melbourne"
+    citizenship: 
+    website: 
+    linkedin: kasup
     xing:
-    github: Lilanga
+    github: kasupsri
     telegram:
     gitlab:
     bitbucket:
-    twitter: '@lilanga_g'
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -39,309 +39,301 @@ sidebar:
     interests:
       title: Interests
       info:
+        - item: Photography
+          link: "https://www.instagram.com/kasupsri/"
+          icon: fas fa-camera-retro
+
+        - item: Hiking
+          link:
+          icon: fas fa-hiking
+
         - item: Cycling
           link:
-
-        - item: Inline Skating
-          link:
+          icon: fas fa-bicycle
 
 career-profile:
-    title: Career Profile
-    summary: |
-      An experienced software engineer passionate about contributing to crafting the best software products, be hands-on in developing novel solutions with research and development. 
-      Played various roles in technical teams such as Solution Architect, Senior software / Cloud engineer, Tech team lead. 
-      Passionate for trying out new technologies. Keen to follow engineering best practices.
+  title: Career Profile
+  summary: |
+    Senior Software Engineer with over 13 years of experience delivering scalable backend microservices and modern frontend Single Page Applications. Proven track record in leading cross-functional teams, implementing Agile and DevOps practices, and driving innovation in cloud-native solutions across healthcare, fintech, and enterprise SaaS domains.
+    Adept at hands-on coding, solution architecture, and mentoring developers. Known for optimizing legacy systems, integrating real-time communications, and delivering high-quality software in fast-paced environments. Passionate about experimenting with emerging technologies and committed to engineering best practices.
+
 education:
-    title: Education
-    info:
-      - degree: BSc (Hons.) in Computer Science
-        university: Sri Lanka Institute of Information Technology (SLIIT)
-        time: 2006 - 2010
-        details: |
-          Completed a rigorous BSc (Hons.) program in Computer Science at SLIIT and acquired a comprehensive understanding of computer science principles, programming languages, data structures, algorithms, and software engineering.
-          
-          Engaged in collaborative projects, enhancing teamwork and problem-solving skills, actively pursued knowledge of emerging technologies and industry trends through workshops and seminars.
+  title: Education
+  info:
+    - degree: Bachelor of Science — Information Technology
+      university: Curtin University of Technology, Australia
+      time: 2009 - 2012
+      details: |
+        Completed a comprehensive program focused on software engineering, databases, networks, and web technologies. 
+        Gained a strong foundation in both theoretical and applied aspects of information technology.
+        Participated in team-based projects, developing practical skills in collaboration, systems design, and application development.
 
 experiences:
-    title: Work Experience
-    info:
-      - role: Senior Analyst Programmer
-        time: September 2022 - Present
-        company: HCF - Australia
-        details: |
-          HCF is the Australia's Largest Not-for-Profit Health Fund. They are the Winner of the Canstar Outstanding Value Health Insurance Award for Seven Straight Years.
+  title: Work Experience
+  info:
+    - role: Product Development Engineer
+      time: April 2023 - Present
+      company: Rauland Australia - Melbourne
+      details: |
+        Rauland is a leading healthcare technology provider serving 400+ Australian healthcare organizations with mission-critical communication and workflow solutions.
 
-          **Responsibilities:**
-        
-          - Developed and added enhancements to microservices deployed on Heroku and API suite integrating Salesforce Marketing Cloud and Salesforce.
-          - Identified performance bottlenecks, improved codebases, and addressed technical debts.
-          - Implemented engineering best practices and established a proper CI/CD mechanism.
+        **Responsibilities:**
 
-          <!-- **Technical Stack:**
-        
-          `Cloud technologies:` AWS, Heroku, Salesforce cloud and marketing cloud 
-          
-          `Microservices:` NodeJS, RabbitMQ
+        - Focused 70% on backend development for the Reach mobile app, designing and enhancing 10+ microservice APIs in .NET Core, improving API delivery speed by 30%.
+        - Integrated SIP-based live audio communication with LiveKit and contributed to deep integration with Rauland NurseCall system for real-time, high-availability emergency response.
+        - Refactored legacy code to async patterns and optimized PostgreSQL queries, improving performance, scalability, and observability with structured logging and OpenTelemetry.
+        - Developed Docker containerized services and collaborated with DevOps to implement GitLab CI/CD pipelines, reducing deployment effort by 50%.
+        - Implemented messaging infrastructure using RabbitMQ and MQTTx; automated maintenance with Hangfire cleanup jobs to enhance reliability.
+        - Implemented Keycloak authentication and device registration in React and Angular Command Center web apps, enabling centralized access control and secure onboarding.
+        - Awarded “Best Pitch” at Rauland Hackday as part of the team for CareNet — a remote patient monitoring system with React dashboard and wearable app streaming real-time vitals.
 
-          `Frontends:` ReactJS
+        <!-- **Technical Stack:**
 
-          `Databases:` PostgreSQL, Redis
-          
-          `CI CD:` GitHub actions, Heroku pipelines -->
+        `Backend:` .NET Core, PostgreSQL, RabbitMQ, MQTTx, Hangfire, OpenTelemetry
 
-      - role: Senior Consultant / Solutions Architecture
-        time: March 2022 to September 2022
-        company: Palo-IT - Singapore
-        details: |
-          Palo IT is a global innovation consultancy firm working with the latest technologies to help organizations embrace change.
-          Palo IT values Best of design thinking, Agile development methodologies with DevOPs culture to help their client to run their digital transformation effectively and efficiently.
+        `Frontend:` ReactJS, Angular
 
-          ##### Responsibilities:
-        
-          - Designed and developed solutions and application features, while conducting code reviews.
-          - Provided support in implementing IoT-based proof-of-concept solutions as research projects.
+        `DevOps:` Docker, GitLab CI/CD
 
-          <!-- ##### Technical Stack:
-        
-          `Cloud technologies:` Azure, AWS, Docker, Kubernetes, Terraform, Serverless, Cloud watch, Prometheus, Istio
+        `Authentication:` Keycloak
 
-          `Microservices:` Java, NodeJS using JavaScript and TypeScript, Golang
+        `Communication:` LiveKit (SIP-based) -->
 
-          `APIs:` Kong API gateway, REST API, powered by Java, NodeJS
+    - role: Senior Software Engineer
+      time: February 2022 - March 2023
+      company: PALO-IT - Singapore
+      details: |
+        PALO IT is a global innovation consultancy helping enterprises adopt Agile methodologies, modern engineering, and DevOps practices to drive digital transformation.
 
-          `Frontends:` ReactJS
-          
-          `Databases:` PostgreSQL, Aurora, Redis, MongoDB, Timescale DB CI CD: Azure DevOps, GitHub actions, SonarQube, Snyk -->
+        **Responsibilities:**
 
-      - role: Solutions Architect
-        time: November 2019 to February 2022
-        company: Electrify - Singapore
-        details: |
-          Electrify is a Singapore-based peer-to-peer green-energy energy trading company dedicated to solving tough challenges in decentralized energy distribution for the next generation with innovative solutions.
+        - Managed a cross-functional team of 8 across Singapore, Vietnam, and India; collaborated closely with product, operations, and marketing teams.
+        - Designed and developed over 10 microservice backend APIs and frontend applications using TypeScript for the Dealcierge project at Standard Chartered Ventures.
+        - Implemented a machine learning-based matchmaking engine, reducing misdirected customer service queries by 30%.
+        - Mentored 6 junior developers in Vietnam to achieve the highest performance ratings through technical coaching and support.
+        - Initiated and conducted code quality review sessions, resulting in a 25% reduction in SonarQube-detected bugs and improved system code quality.
+        - Developed Clean Architecture microservices (.NET Core) for the IHiS Health Discovery project, leading to over 1.3 million vitals submitted.
+        - Created a Cron job scheduling service for generating alerts for more than 24,000 users.
 
-          ##### Responsibilities:
-        
-          - Designed and developed microservices, overseeing peer code reviews.
-          - Developed solution architectures and integration architectures with a focus on scalability, security, risks, costs, and benefits.
-          - Implemented automation, CI/CD strategies, build systems, artifact repositories, and infrastructure as code, while adhering to engineering best practices.
+        <!-- **Technical Stack:**
 
-          <!-- ##### Technical Stack:
-        
-          `Cloud technologies:` AWS (GCP, ECR, GCR, Lambda, Cloud watch, WAF, SQS, SNS, Cloud IoT Core) GCP (Pub- Sub, Cloud Run, Events hub, IoT Core), Docker, Kubernetes, Terraform, Serverless Stack
+        `Backend:` .NET Core, NodeJS (TypeScript), Go, Java
 
-          `Microservices:` Golang, NodeJS, with NATS message queues
+        `Frontend:` ReactJS
 
-          `APIs:` API gateways, REST API, gRPC, MQTT, Modbus, GraphQL API powered by Golang and NodeJS
+        `Cloud:` Azure, AWS
 
-          `Frontends:` ReactJS
-          
-          `Databases:` PostgreSQL, DynamoDB, Aurora, Redis, MongoDB, Influx DB, Timescale DB
+        `DevOps:` Azure DevOps, GitHub Actions, SonarQube
 
-          `CI CD:` Bitbucket, Bitbucket pipelines, Gitlab pipelines, SonarQube -->
+        `Database:` PostgreSQL, Redis, MongoDB
 
-      - role: Senior Software Engineer
-        time: July 2019 to November 2019
-        company: Lexro Pvt Ltd. - Singapore|Sri Lanka
-        details: |
-          Lexro is an IT consulting firm that offers expert assistance with clients' technical innovations.
+        `Other:` Prometheus, Kubernetes, Docker, Serverless, Kong API Gateway -->
 
-          ##### Responsibilities:
-        
-          - Enhanced solution architectures to facilitate the migration of the client's existing products to scalable and flexible solutions, effectively addressing business needs.
-          - Successfully migrated server-based solutions to Kubernetes clusters, containerizing and optimizing them for improved performance.
-          - Introduced a DevOps culture, incorporating infrastructure as code, build pipelines, and robust monitoring and alerting mechanisms.
+    - role: Senior Software Engineer
+      time: November 2017 - January 2022
+      company: Celiveo Pvt Ltd - Singapore
+      details: |
+        Celiveo is an enterprise print management and security software company providing solutions for secure document release and access management.
 
-          <!-- ##### Technical Stack:
-        
-          `Cloud technologies:` AWS, EKS, ECR, Kubernetes, Grafana, WAF, SQS, SNS, S3, Secret manager, Systems Manager
+        **Responsibilities:**
 
-          `Microservices:` Golang, NodeJS
+        - Revamped and optimized Celiveo products by applying SOLID principles and migrating from legacy ASP.NET to .NET Core microservices, improving product performance by 30%.
+        - Streamlined software development by implementing branching strategies, build pipelines, CI/CD with Azure DevOps, and static analysis using SonarQube.
+        - Automated 5+ build pipelines, achieving a 50% reduction in build time.
+        - Supervised the R&D team throughout the release cycle: code reviews, defect triage, and production deployments.
+        - Enhanced database performance and stability by redesigning tables and optimizing queries, achieving a 25% system performance boost.
+        - Ensured compliance with client data security standards, leading to a 50% increase in repeat business due to improved client satisfaction.
 
-          `APIs:` Golang, Java
+        <!-- **Technical Stack:**
 
-          `Frontends:` ReactJS
-          
-          `Databases:` PostgreSQL, DynamoDB, Aurora, Influx DB
+        `Backend:` .NET Core, SQL Server, ASP.NET, SonarQube
 
-          `CI CD:` Bitbucket, Bitbucket pipelines, SonarQube -->
+        `DevOps:` Azure DevOps Pipelines, Git, Docker
 
-      - role: Technical Specialist | Senior Software Engineer
-        time: July 2014 to July 2019
-        company: Pearson Lanka (Pvt) Ltd. USA|Sri Lanka
-        details: |
-          Pearson is an international FTSE 100 company that is the world's leading provider of online learning systems and learning content offerings.
-          Worked for MathXL team, which is Pearson's most significant and highest revenue generation product, providing a whole package of online learning solutions to universities and individuals. 
-          The platform has 6.5 million users based, with an average of 1.4 million active users on peak usage durations.
+        `Database:` MS SQL Server
 
-          ##### Responsibilities:
-        
-          - Designed and developed full-stack solutions using appropriate technology stacks in collaboration with onshore and offshore team members.
-          - Implemented build automation for continuous integration and deployment, code quality reporting, and branching strategies.
-          - Improved current-gen solutions by removing deprecated libraries and addressing technical debts.
-          - Contributed as a member of the Engineering Best Practices Team (EBP) to promote coding ethics and industry standards.
+        `Practices:` CI/CD, SOLID principles, Agile Scrum -->
 
-          <!-- ##### Technical Stack:
-        
-          `Cloud technologies:` AWS, ECS, Kubernetes, SQS, Grafana, Heroku
 
-          `Microservices:` Golang, Java, .NET Core, RabbitMQ message bus / AMQP
+    - role: System Analyst (.NET)
+      time: October 2016 - October 2017
+      company: NCS Pvt Ltd - Singapore
+      details: |
+        NCS is a leading information and communications technology service provider offering end-to-end IT solutions for government and commercial sectors in the APAC region.
 
-          `APIs:` Java / Spring Boot, C#
+        **Responsibilities:**
 
-          `Frontends:` ReactJS, AngularJS (v 1.0, v 1.1)
-          
-          `Databases:` PostgreSQL, DynamoDB, Aurora, MSSQL
+        - Expanded the Singapore Government-Paid Leave system to support the Adoption Leave Scheme, ensuring smooth launch and adoption of the new program.
+        - Developed and deployed SSIS packages to sync with backend government services, eliminating data entry errors.
+        - Provided on-site deployment and training to QA teams, improving client satisfaction and reducing post-deployment issues by 40%.
 
-          `CI CD:` Bitbucket, Bitbucket pipelines, SonarQube, Nexus, Checkmarx -->
+        <!-- **Technical Stack:**
 
-      - role: Senior Software Engineer
-        time: June 2013 to June 2014
-        company: Mobile App Mart (Pvt) Ltd. UK|Sri Lanka
-        details: |
-          Mobile App Mart is a UK London-based software Development Company that uses Mobile Development technologies and ASP.NET MVC/Web API-related .NET technologies as core technologies.
+        `Backend:` .NET, SSIS
 
-          ##### Responsibilities:
-        
-          - Addressed tech debts and improved the codebase by removing legacy technologies while enforcing coding standards.
-          - Provided technical consultancy to the development team for functionality changes and requirement refinement, selecting appropriate technology stacks based on client requirements.
-          - Developed core modules, service layer modules, and front ends with new functionalities.
-          - Conducted research and developed proof-of-concept solutions to refine business requirements by understanding stakeholders' interests.
+        `Database:` MS SQL Server
 
-      - role: Software Engineer
-        time: November 2009 to June 2013
-        company: Navantis (Pvt) Ltd. Canada|Sri Lanka
-        details: |
-          Navantis is a Canadian-based IT solution provider for all Microsoft enterprise solution needs. 
-          Which is an award-winning IT Solution provider of premium high-value IT solutions and services and delivering exceptional customer service and high-performing business solutions through the precision use of Microsoft technology with offices in North America and South Asia.
+        `Practices:` Agile, On-site client delivery -->
 
-          ##### Responsibilities:
-        
-          - Developed full-stack solutions collaboratively with onshore and offshore team members and conducted peer code reviews.
-          - Analyzed client requirements, estimated development efforts, and designed and implemented solutions utilizing available APIs.
-          - Conducted research and created proof-of-concept solutions to enhance business requirements, aligning with stakeholders' interests.
+
+    - role: Senior Software Engineer
+      time: March 2013 - October 2016
+      company: Hitachi Digital Payment Solutions Ltd - Sri Lanka
+      details: |
+        Hitachi DPS delivers cutting-edge payment and banking solutions with a focus on financial technology products, including ATM, POS, and digital banking systems.
+
+        **Responsibilities:**
+
+        - Designed and implemented ATM software compliant with CEN XFS standards, leading to a successful product launch.
+        - Integrated ATM software across different vendor models and hardware modules, expanding the product range by 30%.
+        - Conducted PCI-DSS security analysis and ensured software certification compliance.
+        - Managed and planned ATM deployments at client sites, achieving 100% on-time delivery and reducing post-deployment issues by 40%.
+        - Collaborated with offshore teams to implement features and reduce delivery timelines by up to 30%, improving coordination and team efficiency.
+
+        <!-- **Technical Stack:**
+
+        `Standards:` CEN XFS, PCI-DSS
+
+        `Backend:` C++, C#, .NET
+
+        `Practices:` On-site deployments, Cross-functional collaboration -->
+
+
+    - role: Associate Technology Engineer
+      time: March 2012 - February 2013
+      company: Virtusa Pvt Ltd - Sri Lanka
+      details: |
+        Virtusa is a global provider of digital business strategy, digital engineering, and IT services and solutions, serving Global 2000 enterprises and software vendors.
+
+        **Responsibilities:**
+
+        - Enhanced the Citi Bank Self-Service web application to support customer inquiries and complaints, boosting customer satisfaction by 25%.
+        - Added support for new transaction types, enabling a 100% successful launch.
+        - Assisted offshore USA teams with system configurations and API implementations, reducing development and integration time by 30%.
+
+        <!-- **Technical Stack:**
+
+        `Backend:` .NET, Web API
+
+        `Frontend:` ASP.NET, jQuery
+
+        `Practices:` Global collaboration, Customer-centric enhancements -->
 
 certifications:
-      title: Professional certifications
-      list:
-        - name: AWS Solutions Architect Associate
-          start:
-          end:
-          organization: Amazon Web Services
-          credentialid: SAA-C02
-          credentialurl:
-          credentialname: AWS
-          details: |
+  title: Professional certifications
+  list:
+    - name: Professional Scrum Developer™ I (PSD I)
+      start:
+      end:
+      organization: Scrum.org
+      credentialid:
+      credentialurl: https://www.credly.com/badges/c081bacf-d721-43e4-9708-72ca9106d974/public_url
+      credentialname: PSD I
+      details: |
 
-        - name: Microsoft Certified Professional Developer
-          start:
-          end:
-          organization: Microsoft
-          credentialid: MCPD
-          credentialurl:
-          credentialname: Microsoft
-          details: |
+    - name: Microsoft Certified Azure Developer Associate
+      start:
+      end:
+      organization: Microsoft
+      credentialid:
+      credentialurl: https://www.credly.com/badges/b2e771da-ae28-4adc-8880-a4625245337c
+      credentialname: Azure Developer Associate
+      details: |
 
-        - name: Microsoft Certified Technology Specialist
-          start:
-          end:
-          organization: Microsoft
-          credentialid: MCTS
-          credentialurl:
-          credentialname: Microsoft
-          details: |
+    - name: Microsoft Certified Solutions Developer - App Builder
+      start:
+      end:
+      organization: Microsoft
+      credentialid:
+      credentialurl: https://www.credly.com/badges/ae2ffeab-89f7-4aeb-b520-185476e0afcf
+      credentialname: MCSD - App Builder
+      details: |
+
+    - name: Microsoft Certified Solutions Associate - Web Applications
+      start:
+      end:
+      organization: Microsoft
+      credentialid:
+      credentialurl: https://www.credly.com/badges/9b512ec9-8087-4d29-ab11-db11871fada9/public_url
+      credentialname: MCSA - Web Applications
+      details: |
+
+    - name: Programming with Google Go
+      start:
+      end:
+      organization: Coursera
+      credentialid:
+      credentialurl: https://coursera.org/share/78692e6adc65c5983d6073749e883315
+      credentialname: Coursera Verified Certificate
+      details: |
+
+    - name: Full Stack Web Development with Angular
+      start:
+      end:
+      organization: Coursera
+      credentialid:
+      credentialurl: https://coursera.org/share/b3c13c67d8865797bd296c21329f4c30
+      credentialname: Coursera Verified Certificate
+      details: |
 
 projects:
-    title: Technical Stack
-    intro: >
-      I have successfully worked with the following technology stacks throughout my career.
-    assignments:
-      - title: "Cloud related stacks:"
-        link: 
-        tagline: "AWS, GCP, Azure, Heroku, Docker, Kubernetes, Terraform, Grafana, Prometheus, ELK Stack, CloudFormation, Serverless Stack"
+  title: Technical Stack
+  intro: >
+    I have successfully worked with the following technology stacks throughout my career.
+  assignments:
+    - title: "Cloud related stacks:"
+      link: 
+      tagline: "Azure (Functions, Blob Storage, Cosmos DB, Virtual Machines, SQL Database, App Service, Event Grid, Kubernetes Service, Cognitive Services, DevOps, Azure AD, SendGrid, Service Bus), AWS (S3, EC2, RDS, Lambda, DynamoDB, CloudFormation, CloudFront, SQS, SNS, Elastic Beanstalk, Cognito), Docker, Kubernetes"
 
-      - title: "Frontend tech stacks:"
-        link: 
-        tagline: "ReactJS, TypeScript, NextJS, SASS, LESS, Tailwind CSS, Webpack"
+    - title: "Frontend tech stacks:"
+      link: 
+      tagline: "React, Angular, HTML5, CSS, SASS, jQuery, Bootstrap, SPA architecture, OAuth2/OpenID Connect, Keycloak"
 
-      - title: "Microservice tech stacks:"
-        link:
-        tagline: "Java, NodeJS, JavaScript, TypeScript, Golang, NATS, RabbitMQ, AMQP, Kafka, GraphQL, RESTful Services, gRPC, MQTT"
+    - title: "Microservice tech stacks:"
+      link:
+      tagline: ".NET Core, ASP.NET Core, Node.js, Go, RabbitMQ, MQTTx, Kafka, RESTful APIs, LiveKit (SIP), Hangfire, Entity Framework, Clean Architecture, Domain-Driven Design (DDD)"
 
-      - title: "Databases related tech stacks:"
-        link:
-        tagline: "PostgreSQL, Aurora, DynamoDB, Aurora, Influx DB, Redis, MongoDB, Memcached, Timescale DB"
+    - title: "Databases related tech stacks:"
+      link:
+      tagline: "PostgreSQL, MS SQL, MongoDB"
 
-      - title: "DevOps related tech stacks:"
-        link:
-        tagline: "Bitbucket piplines, GoCD, ArgoCD, Azure DevOps, GitHub actions, SonarQube, Snyk, Nexus, Checkmarx"
-      
-      - title: "Project related tools:"
-        link:
-        tagline: "JIRA, Confluence, Trello, Git, Bitbucket, GitHub, GitLab, Azure DevOps, Jenkins, Packer, Vagrant"
+    - title: "DevOps related tech stacks:"
+      link:
+      tagline: "Azure DevOps Pipelines, GitLab CI/CD, Git (GitHub, GitLab, Bitbucket), SVN, Docker, Kubernetes, CI/CD pipelines"
 
-      - title: "Other programming framewroks:" 
-        link:
-        tagline: "Spring Boot, .NET Core, ASP.NET MVC, ASP.NET Web API, ExpressJS, NestJS, Laravel, Phoenix, Django"
+    - title: "Project related tools:"
+      link:
+      tagline: "JIRA, Confluence, Trello, Git, GitHub, GitLab, Bitbucket, Azure DevOps Boards"
 
-# oss:
-#     title: OSS Contributions
-#     intro: >
-#       You can list your open source software contributions in this
-#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#     contributions:
-#       - title: Tempo
-#         link: "#"
-#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    - title: "Other programming frameworks:"
+      link:
+      tagline: ".NET Core, ASP.NET Core, Node.js, Entity Framework, Hangfire, LiveKit, Serverless Computing, Microservices Architecture, Test-Driven Development (TDD), Clean Architecture"
 
-#       - title: Atom
-#         link: "#"
-#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-#       - title: Delta
-#         link: "#"
-#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Achievements
-    intro: |
-      Following are my achievements during my career.
-    papers:
-      - title: Speaking at AWS Innovate – Modern application edition (2021), presentation on utilizing serverless stacks/micro-services
-
-      - title: Community contributions - Provided Trainings on software engineering for SL Army, Air Force tech teams
-
-      - title: Lecturers’ refresher program contribution(2017, 2018) to SLIIT Campus – help to revamp the Software engineering syllabus
-
-      - title: Hackathon panelists of SLIIT hackathon events (2016, 2017)
-
-      - title: Contributor of Pearson Tech summit (2018)
-
-      - title: Received Best Canadian Microsoft partner Unified Communication Solution (IMPACT award) for the project done for Goodman Law Firm, Canada (2011)
-
-      - title: Won Navantis 'You Rock' peer excellence award twice. (2011, 2012)
-
-      - title: Won the Pan Pearson hackathon of 2015 under the sales category (2015)
-
-      - title: Won Pearson Discovery day best solution (2018)
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: NodeJS, Typescript & Javascript
-        level: 95%
+  toolset:
+    - name: C#, .NET Core, ASP.NET
+      level: 95%
 
-      - name: ReactJS, NextJS
-        level: 90%
+    - name: TypeScript, JavaScript, Node.js
+      level: 90%
 
-      - name: Golang
-        level: 85%
+    - name: ReactJS, Angular
+      level: 85%
 
-      - name: Java, Spring Boot
-        level: 75%
+    - name: SQL, PostgreSQL, MS SQL
+      level: 75%
 
-      - name: Python, C#
-        level: 60%
+    - name: Docker, Kubernetes
+      level: 75%
+
+    - name: RabbitMQ, MQTT, Kafka
+      level: 70%
+
+    - name: Azure, AWS
+      level: 80%
 
 footer: >
+  © 2025 Kasup Sri Bandara – Built with passion. All rights reserved.
