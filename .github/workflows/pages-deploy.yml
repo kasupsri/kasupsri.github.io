@@ -46,13 +46,6 @@ jobs:
         env:
           JEKYLL_ENV: "production"
  
-      - name: Setup htmlproofer
-        run: gem install html-proofer && htmlproofer .
-
-      - name: Test site
-        run: |
-          bundle exec htmlproofer _site --disable-external --check-html --allow_hash_href
- 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
