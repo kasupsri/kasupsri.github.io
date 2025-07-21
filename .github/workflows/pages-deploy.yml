@@ -47,7 +47,7 @@ jobs:
           JEKYLL_ENV: "production"
  
       - name: Setup htmlproofer
-        run: gem install html-proof && htmlproof .
+        run: gem install html-proofer && htmlproofer .
 
       - name: Test site
         run: |
