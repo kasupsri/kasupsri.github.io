@@ -46,6 +46,9 @@ jobs:
         env:
           JEKYLL_ENV: "production"
  
+      - name: Setup htmlproofer
+        run: bundle install htmlproofer"
+
       - name: Test site
         run: |
           bundle exec htmlproofer _site --disable-external --check-html --allow_hash_href
