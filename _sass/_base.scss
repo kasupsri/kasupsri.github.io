@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import 'functions';
 
 /* ======= Base ======= */
 body {
   font-family: 'Lato', sans-serif;
   color: $text-color-secondary;
   background: $smoky-white;
-  font-size: 14px;
-  padding: 30px;
+  font-size: rem(16);
+  padding: rem(30);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -54,63 +55,80 @@ p {
     color: #fff;
   }
   .profile-container {
-  padding: 30px;
+  padding: rem(30);
   background: rgba(0, 0, 0, 0.2);
   text-align: center;
   color: #fff;
 
   .avatar-lg {
-    width: 250px;
-    height: 250px;
+    width: rem(250);
+    height: rem(250);
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 15px;
+    margin-bottom: rem(15);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   }
 
   .full-name {
-    font-size: 24px;
+    font-size: rem(24);
     font-weight: 800;
-    margin: 0 0 5px;
+    margin: 0 0 rem(5);
     white-space: normal;
   }
 
   .tagline {
-    font-size: 16px;
+    font-size: rem(16);
     font-weight: 400;
     color: rgba(255, 255, 255, 0.7);
     margin: 0;
   }
 }
 
+.sidebar-wrapper .full-name {
+  font-size: rem(290);
+}
+
+.sidebar-wrapper .tagline {
+  font-size: rem(180);
+}
+
 @media (max-width: 768px) {
   .profile-container .avatar {
-    width: 100px;
-    height: 100px;
+    width: rem(100);
+    height: rem(100);
+  }
+}
+
+@media (max-width: 767px) {
+  .sidebar-wrapper .full-name {
+    font-size: rem(48);
+  }
+  .sidebar-wrapper .tagline {
+    font-size: rem(32);
   }
 }
 
   .name {
-    font-size: 32px;
+    font-size: rem(32);
     font-weight: 900;
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: rem(10);
   }
   .tagline {
     color: rgba(256, 256, 256, 0.6);
-    font-size: 16px;
+    font-size: rem(16);
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 0;
   }
   .profile {
-    margin-bottom: 15px;
+    margin-bottom: rem(15);
   }
 
   .avatar {
     //used for profile image
-    max-width: 100px;
-    margin-bottom: 15px;
+    max-width: rem(100);
+    margin-bottom: rem(15);
     border: 0px solid #fff;
     border-radius: 100%;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
@@ -119,35 +137,35 @@ p {
     .fas,
     .fab,
     .far {
-      margin-right: 5px;
-      font-size: 18px;
+      margin-right: rem(5);
+      font-size: rem(18);
       vertical-align: middle;
     }
     li {
-      margin-bottom: 15px;
+      margin-bottom: rem(15);
       &:last-child {
         margin-bottom: 0;
       }
     }
   }
   .container-block {
-    padding: 30px;
+    padding: rem(30);
   }
   .container-block-title {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: rem(16);
     font-weight: 700;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: rem(15);
   }
   .degree {
-    font-size: 14px;
+    font-size: rem(14);
     margin-top: 0;
-    margin-bottom: 5px;
+    margin-bottom: rem(5);
   }
   .education-container {
     .item {
-      margin-bottom: 25px;
+      margin-bottom: rem(25);
       &:last-child {
         margin-bottom: 0;
       }
@@ -173,7 +191,7 @@ p {
   .languages-list {
     margin-bottom: 0;
     li {
-      margin-bottom: 10px;
+      margin-bottom: rem(10);
       &:last-child {
         margin-bottom: 0;
       }
@@ -183,7 +201,7 @@ p {
   .interests-list {
     margin-bottom: 0;
     li {
-      margin-bottom: 10px;
+      margin-bottom: rem(10);
       &:last-child {
         margin-bottom: 0;
       }
@@ -195,38 +213,38 @@ p {
   grid-column: span 7;
   order: $resume-order;
   background: #fff;
-  padding: 60px;
+  padding: rem(60);
   .section-title {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: rem(20);
     font-weight: 500;
     color: darken($theme-color, 15%);
     position: relative;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: rem(20);
   }
   .section {
-    margin-bottom: 60px;
+    margin-bottom: rem(60);
   }
 
   .experiences-section,
   .educations-section {
     .item {
-      margin-bottom: 30px;
+      margin-bottom: rem(30);
     }
   }
   .upper-row,
   .second-upper-row {
     position: relative;
     overflow: hidden;
-    margin-bottom: 2px;
+    margin-bottom: rem(2);
     display: flex;
   }
   .job-title,
   .degree,
   .cert-title{
     color: $text-color;
-    font-size: 16px;
+    font-size: rem(16);
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 600;
@@ -243,21 +261,21 @@ p {
   .company,
   .university,
   .cert-org {
-    margin-bottom: 10px;
+    margin-bottom: rem(10);
     color: $text-grey;
   }
 
   .project-title {
-    font-size: 14px;
+    font-size: rem(14);
     font-weight: 600;
     margin-top: 0;
-    margin-bottom: 5px;
+    margin-bottom: rem(5);
     color: darken($theme-color, 15%);
   }
   .project-tagline {
     font-weight: 500;
     color: darken($text-color-secondary,15%);
-    margin-bottom: 10px;
+    margin-bottom: rem(10);
     &:hover {
       color: darken($theme-color, 30%);
     }
@@ -265,60 +283,60 @@ p {
 
   .projects-section {
     .intro {
-      margin-bottom: 30px;
+      margin-bottom: rem(30);
     }
     .item {
-      margin-bottom: 15px;
+      margin-bottom: rem(15);
     }
   }
 
   .publication-title {
-    font-size: 16px;
+    font-size: rem(16);
     font-weight: 400;
     color: $text-color;
-    margin-bottom: 1px;
+    margin-bottom: rem(1);
   }
   .publication-authors {
     font-style: italic;
     color: $text-grey;
-    margin-bottom: 1px;
+    margin-bottom: rem(1);
   }
   .publications-section {
     .intro {
-      margin-bottom: 30px;
+      margin-bottom: rem(30);
     }
     .item {
-      margin-bottom: 15px;
+      margin-bottom: rem(15);
     }
   }
 }
 
 .skillset {
   .item {
-    margin-bottom: 15px;
+    margin-bottom: rem(15);
     overflow: hidden;
   }
   .level-title {
-    font-size: 14px;
+    font-size: rem(14);
     margin-top: 0;
-    margin-bottom: 12px;
+    margin-bottom: rem(12);
   }
   .level-bar {
-    height: 12px;
+    height: rem(12);
     background: $smoky-white;
   }
   .level-bar-inner {
-    height: 12px;
+    height: rem(12);
     background: lighten($theme-color, 15%);
   }
 }
 
 .footer {
-  padding-top: 30px;
+  padding-top: rem(30);
   .copyright {
     line-height: 1.6;
     color: $text-color-secondary;
-    font-size: 13px;
+    font-size: rem(13);
   }
 
   .fa-heart {
@@ -328,18 +346,18 @@ p {
 
 .clean-skillset {
   .skill-item {
-    margin-bottom: 1.5rem;
+    margin-bottom: rem(1.5);
 
     .skill-label {
       display: flex;
       align-items: center;
       font-weight: 600;
-      font-size: 16px;
-      margin-bottom: 6px;
+      font-size: rem(16);
+      margin-bottom: rem(6);
 
       i {
         color: #4caf50;
-        margin-right: 8px;
+        margin-right: rem(8);
       }
 
       .skill-name {
@@ -348,7 +366,7 @@ p {
     }
 
     .skill-bar {
-      height: 12px;
+      height: rem(12);
       background: #eee;
       border-radius: 6px;
       overflow: hidden;
@@ -361,9 +379,9 @@ p {
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        padding-right: 6px;
+        padding-right: rem(6);
         color: #fff;
-        font-size: 11px;
+        font-size: rem(11);
         font-weight: 500;
         transition: width 0.3s ease;
       }
