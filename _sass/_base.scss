@@ -264,13 +264,14 @@ p {
   }
 
   .project-title {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 5px;
     color: darken($theme-color, 15%);
   }
   .project-tagline {
+    font-size: 16px;
     font-weight: 400;
     font-style: normal;
     color: darken($text-color-secondary,15%);
