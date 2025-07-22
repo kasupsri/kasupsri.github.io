@@ -53,9 +53,8 @@ sidebar:
 
 career-profile:
   title: Career Profile
-  summary: |
-    Senior Software Engineer with over 13 years of experience delivering scalable backend microservices and modern frontend Single Page Applications. Proven track record in leading cross-functional teams, implementing Agile and DevOps practices, and driving innovation in cloud-native solutions across healthcare, fintech, and enterprise SaaS domains.
-    Adept at hands-on coding, solution architecture, and mentoring developers. Known for optimizing legacy systems, integrating real-time communications, and delivering high-quality software in fast-paced environments. Passionate about experimenting with emerging technologies and committed to engineering best practices.
+  summary: >
+    Senior Software Engineer with over 13 years of experience delivering scalable backend microservices and modern frontend Single Page Applications. Proven track record in leading cross-functional teams, implementing Agile and DevOps practices, and driving innovation in cloud-native solutions across healthcare, fintech, and enterprise SaaS domains. Adept at hands-on coding, solution architecture, and mentoring developers. Known for optimizing legacy systems, integrating real-time communications, and delivering high-quality software in fast-paced environments. Passionate about experimenting with emerging technologies and committed to engineering best practices.
 
 education:
   title: Education

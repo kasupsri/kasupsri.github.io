@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
-@import 'functions';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* ======= Base ======= */
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: $text-color-secondary;
   background: $smoky-white;
-  font-size: rem(16);
-  padding: rem(30);
+  font-size: 16px;
+  padding: 30px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -55,29 +54,29 @@ p {
     color: #fff;
   }
   .profile-container {
-  padding: rem(30);
+  padding: 30px;
   background: rgba(0, 0, 0, 0.2);
   text-align: center;
   color: #fff;
 
   .avatar-lg {
-    width: rem(250);
-    height: rem(250);
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: rem(15);
+    margin-bottom: 15px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   }
 
   .full-name {
-    font-size: rem(24);
+    font-size: 24px;
     font-weight: 800;
-    margin: 0 0 rem(5);
+    margin: 0 0 5px;
     white-space: normal;
   }
 
   .tagline {
-    font-size: rem(16);
+    font-size: 16px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.7);
     margin: 0;
@@ -85,50 +84,50 @@ p {
 }
 
 .sidebar-wrapper .full-name {
-  font-size: rem(290);
+  font-size: 290px;
 }
 
 .sidebar-wrapper .tagline {
-  font-size: rem(180);
+  font-size: 180px;
 }
 
 @media (max-width: 768px) {
   .profile-container .avatar {
-    width: rem(100);
-    height: rem(100);
+    width: 100px;
+    height: 100px;
   }
 }
 
 @media (max-width: 767px) {
   .sidebar-wrapper .full-name {
-    font-size: rem(48);
+    font-size: 48px;
   }
   .sidebar-wrapper .tagline {
-    font-size: rem(32);
+    font-size: 32px;
   }
 }
 
   .name {
-    font-size: rem(32);
+    font-size: 32px;
     font-weight: 900;
     margin-top: 0;
-    margin-bottom: rem(10);
+    margin-bottom: 10px;
   }
   .tagline {
     color: rgba(256, 256, 256, 0.6);
-    font-size: rem(16);
+    font-size: 16px;
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 0;
   }
   .profile {
-    margin-bottom: rem(15);
+    margin-bottom: 15px;
   }
 
   .avatar {
     //used for profile image
-    max-width: rem(100);
-    margin-bottom: rem(15);
+    max-width: 100px;
+    margin-bottom: 15px;
     border: 0px solid #fff;
     border-radius: 100%;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
@@ -137,35 +136,35 @@ p {
     .fas,
     .fab,
     .far {
-      margin-right: rem(5);
-      font-size: rem(18);
+      margin-right: 5px;
+      font-size: 18px;
       vertical-align: middle;
     }
     li {
-      margin-bottom: rem(15);
+      margin-bottom: 15px;
       &:last-child {
         margin-bottom: 0;
       }
     }
   }
   .container-block {
-    padding: rem(30);
+    padding: 30px;
   }
   .container-block-title {
     text-transform: uppercase;
-    font-size: rem(16);
+    font-size: 16px;
     font-weight: 700;
     margin-top: 0;
-    margin-bottom: rem(15);
+    margin-bottom: 15px;
   }
   .degree {
-    font-size: rem(14);
+    font-size: 14px;
     margin-top: 0;
-    margin-bottom: rem(5);
+    margin-bottom: 5px;
   }
   .education-container {
     .item {
-      margin-bottom: rem(25);
+      margin-bottom: 25px;
       &:last-child {
         margin-bottom: 0;
       }
@@ -191,7 +190,7 @@ p {
   .languages-list {
     margin-bottom: 0;
     li {
-      margin-bottom: rem(10);
+      margin-bottom: 10px;
       &:last-child {
         margin-bottom: 0;
       }
@@ -201,7 +200,7 @@ p {
   .interests-list {
     margin-bottom: 0;
     li {
-      margin-bottom: rem(10);
+      margin-bottom: 10px;
       &:last-child {
         margin-bottom: 0;
       }
@@ -213,38 +212,37 @@ p {
   grid-column: span 7;
   order: $resume-order;
   background: #fff;
-  padding: rem(60);
+  padding: 60px;
   .section-title {
     text-transform: uppercase;
-    font-size: rem(20);
+    font-size: 20px;
     font-weight: 500;
     color: darken($theme-color, 15%);
     position: relative;
     margin-top: 0;
-    margin-bottom: rem(20);
+    margin-bottom: 20px;
   }
   .section {
-    margin-bottom: rem(60);
+    margin-bottom: 60px;
   }
 
   .experiences-section,
   .educations-section {
     .item {
-      margin-bottom: rem(30);
+      margin-bottom: 30px;
     }
   }
   .upper-row,
   .second-upper-row {
     position: relative;
-    overflow: hidden;
-    margin-bottom: rem(2);
+    margin-bottom: 2px;
     display: flex;
   }
   .job-title,
   .degree,
   .cert-title{
     color: $text-color;
-    font-size: rem(16);
+    font-size: 16px;
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 600;
@@ -261,21 +259,22 @@ p {
   .company,
   .university,
   .cert-org {
-    margin-bottom: rem(10);
+    margin-bottom: 10px;
     color: $text-grey;
   }
 
   .project-title {
-    font-size: rem(14);
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 700;
     margin-top: 0;
-    margin-bottom: rem(5);
+    margin-bottom: 5px;
     color: darken($theme-color, 15%);
   }
   .project-tagline {
-    font-weight: 500;
+    font-weight: 400;
+    font-style: normal;
     color: darken($text-color-secondary,15%);
-    margin-bottom: rem(10);
+    margin-bottom: 10px;
     &:hover {
       color: darken($theme-color, 30%);
     }
@@ -283,60 +282,60 @@ p {
 
   .projects-section {
     .intro {
-      margin-bottom: rem(30);
+      margin-bottom: 30px;
     }
     .item {
-      margin-bottom: rem(15);
+      margin-bottom: 15px;
     }
   }
 
   .publication-title {
-    font-size: rem(16);
+    font-size: 16px;
     font-weight: 400;
     color: $text-color;
-    margin-bottom: rem(1);
+    margin-bottom: 1px;
   }
   .publication-authors {
     font-style: italic;
     color: $text-grey;
-    margin-bottom: rem(1);
+    margin-bottom: 1px;
   }
   .publications-section {
     .intro {
-      margin-bottom: rem(30);
+      margin-bottom: 30px;
     }
     .item {
-      margin-bottom: rem(15);
+      margin-bottom: 15px;
     }
   }
 }
 
 .skillset {
   .item {
-    margin-bottom: rem(15);
+    margin-bottom: 15px;
     overflow: hidden;
   }
   .level-title {
-    font-size: rem(14);
+    font-size: 14px;
     margin-top: 0;
-    margin-bottom: rem(12);
+    margin-bottom: 12px;
   }
   .level-bar {
-    height: rem(12);
+    height: 12px;
     background: $smoky-white;
   }
   .level-bar-inner {
-    height: rem(12);
+    height: 12px;
     background: lighten($theme-color, 15%);
   }
 }
 
 .footer {
-  padding-top: rem(30);
+  padding-top: 30px;
   .copyright {
     line-height: 1.6;
     color: $text-color-secondary;
-    font-size: rem(13);
+    font-size: 13px;
   }
 
   .fa-heart {
@@ -346,18 +345,18 @@ p {
 
 .clean-skillset {
   .skill-item {
-    margin-bottom: rem(1.5);
+    margin-bottom: 1.5px;
 
     .skill-label {
       display: flex;
       align-items: center;
       font-weight: 600;
-      font-size: rem(16);
-      margin-bottom: rem(6);
+      font-size: 16px;
+      margin-bottom: 6px;
 
       i {
         color: #4caf50;
-        margin-right: rem(8);
+        margin-right: 8px;
       }
 
       .skill-name {
@@ -366,7 +365,7 @@ p {
     }
 
     .skill-bar {
-      height: rem(12);
+      height: 12px;
       background: #eee;
       border-radius: 6px;
       overflow: hidden;
@@ -379,12 +378,15 @@ p {
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        padding-right: rem(6);
-        color: #fff;
-        font-size: rem(11);
+        padding-right: 6px;
+        font-size: 11px;
         font-weight: 500;
         transition: width 0.3s ease;
       }
     }
   }
+}
+
+.summary {
+  text-align: left;
 }
