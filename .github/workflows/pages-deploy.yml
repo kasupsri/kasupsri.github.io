@@ -40,11 +40,17 @@ jobs:
         with:
           ruby-version: 3 # reads from a '.ruby-version' or '.tools-version' file if 'ruby-version' is omitted
           bundler-cache: true
+
+      - name: Install test dependencies
+        run: gem install html-proofer
  
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: "production"
+
+      - name: Run html-proofer tests
+        run: htmlproofer ./_site_test --disable-external --check-html --report-invalid-tags
  
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
