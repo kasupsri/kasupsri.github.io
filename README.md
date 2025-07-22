@@ -19,3 +19,22 @@ bundle exec jekyll serve
 ```
 
 * Navigate to `http://localhost:4000`
+
+
+* Install test
+
+```bash
+gem install html-proofer
+```
+
+* Build site to test directory
+
+```bash
+bundle exec jekyll build -d _site_test
+```
+
+* Run HTML-Proofer
+
+```bash
+htmlproofer ./_site_test --disable-external --checks Html,Images,Links
+```
