@@ -43,14 +43,19 @@ jobs:
 
       - name: Install test dependencies
         run: gem install html-proofer
- 
-      - name: Build site
-        run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
+
+      - name: Build site for testing
+        run: bundle exec jekyll b -d _site_test
         env:
           JEKYLL_ENV: "production"
 
       - name: Run html-proofer tests
         run: htmlproofer ./_site_test --disable-external --checks Html,Images,Links
+ 
+      - name: Build site for deployment
+        run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: "production"
  
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
