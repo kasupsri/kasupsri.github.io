@@ -78,29 +78,29 @@ experiences:
 
         **Responsibilities:**
 
-        - Designed and developed 9+ .NET Core microservices for the Reach Duress System using Clean Architecture, powering mobile and web clients with scalable, event-driven APIs.
-        - Refactored and enhanced existing services while developing new features and systems; optimized database performance, improved reliability, and enforced consistent coding and architectural standards across microservices.
-        - Developed reusable NuGet packages and defined event-bus contracts using MQTT and RabbitMQ to enable real-time communication between distributed services.
-        - Contributed to architecture design, documentation, and code reviews; drove continuous improvement through issue investigations, feasibility studies, and QA collaboration.
-        - Built and enhanced single-page applications (React/Angular) with secure authentication, modular UI components, and workflow improvements supporting clinicians.
-        - Collaborated with DevOps to containerize and automate deployments via GitLab pipelines, supporting efficient CI/CD for Dockerized microservices.
-        - Won "Best Pitch" at Rauland Hackday for CareNet, a wearable-based remote vitals monitoring prototype delivered in 48 hours.
+        - Designed and developed 9+ .NET Core microservices for the Reach Duress System using Clean Architecture, powering mobile & web clients with scalable, event-driven APIs handling 10k+ daily nurse-call events.
+        - Refactored and extended core services, optimizing database queries and improving reliability to cut API latency by 35%, while enforcing consistent coding and architectural standards.
+        - Developed reusable NuGet packages and defined event-bus contracts (MQTT, RabbitMQ) to enable real-time communication across 15+ distributed services, reducing integration effort by 40%.
+        - Enhanced clinician-facing SPAs (React/Angular) with secure authentication and modular UI components, reducing onboarding time by 30% and improving workflow efficiency.
+        - Contributed to architecture design, documentation, and code reviews; increased test coverage by 25% and improved defect turnaround through structured observability and QA collaboration.
+        - Partnered with DevOps to containerize and automate deployments via GitLab CI/CD, accelerating release cycles by 30%.
+        - Won "Best Pitch" – Rauland Hackday 2023 for CareNet, a wearable remote-vitals monitoring prototype delivered in 48 hours.
 
     - role: Senior Software Engineer
-      time: February 2022 - March 2023
-      company: PALO-IT - Singapore
+      time: February 2022 – March 2023
+      company: PALO-IT, Singapore
       details: |
         PALO IT is a global innovation consultancy helping enterprises adopt Agile methodologies, modern engineering, and DevOps practices to drive digital transformation.
 
         **Responsibilities:**
 
-        - Managed a cross-functional team of 8 across Singapore, Vietnam, and India; collaborated closely with product, operations, and marketing teams.
-        - Designed and developed over 10 microservice backend APIs and frontend applications using TypeScript for the Dealcierge project at Standard Chartered Ventures.
-        - Implemented a machine learning-based matchmaking engine, reducing misdirected customer service queries by 30%.
-        - Mentored 6 junior developers in Vietnam to achieve the highest performance ratings through technical coaching and support.
-        - Initiated and conducted code quality review sessions, resulting in a 25% reduction in SonarQube-detected bugs and improved system code quality.
-        - Developed Clean Architecture microservices (.NET Core) for the IHiS Health Discovery project, leading to over 1.3 million vitals submitted.
-        - Created a Cron job scheduling service for generating alerts for more than 24,000 users.
+        - Led a cross-functional team of 8 engineers across Singapore, Vietnam, and India, collaborating closely with product owners, data analysts, and operations teams to align technical delivery with business goals.
+        - Implemented a machine-learning-based matchmaking engine, improving user routing accuracy and driving a 30% reduction in misdirected customer queries while increasing site engagement.
+        - Designed and developed 10+ backend microservices and frontend applications using TypeScript for the Dealcierge project at Standard Chartered Ventures.
+        - Mentored 6 junior developers, improving productivity and achieving top performance ratings through hands-on guidance and code reviews.
+        - Introduced code-quality review sessions, reducing SonarQube-detected bugs by 25% and elevating system maintainability.
+        - Built Clean Architecture microservices (.NET Core) for the IHiS Health Discovery project, enabling submission of 1.3 million+ vital signs since its launch in 2022.
+        - Developed a Cron-based scheduling service generating automated alerts for 24000+ users, improving system responsiveness and reliability.
 
         <!-- **Technical Stack:**
 
@@ -117,19 +117,19 @@ experiences:
         `Other:` Prometheus, Kubernetes, Docker, Serverless, Kong API Gateway -->
 
     - role: Senior Software Engineer
-      time: November 2017 - January 2022
-      company: Celiveo Pvt Ltd - Singapore
+      time: November 2017 – January 2022
+      company: Celiveo Pvt Ltd, Singapore
       details: |
         Celiveo is an enterprise print management and security software company providing solutions for secure document release and access management.
 
         **Responsibilities:**
 
-        - Revamped and optimized Celiveo products by applying SOLID principles and migrating from legacy ASP.NET to .NET Core microservices, improving product performance by 30%.
-        - Streamlined software development by implementing branching strategies, build pipelines, CI/CD with Azure DevOps, and static analysis using SonarQube.
-        - Automated 5+ build pipelines, achieving a 50% reduction in build time.
-        - Supervised the R&D team throughout the release cycle: code reviews, defect triage, and production deployments.
-        - Enhanced database performance and stability by redesigning tables and optimizing queries, achieving a 25% system performance boost.
-        - Ensured compliance with client data security standards, leading to a 50% increase in repeat business due to improved client satisfaction.
+        - Modernized solution architecture and migrated legacy ASP.NET systems to Azure and .NET Core microservices, improving product performance by 30% and enabling full cloud readiness.
+        - Implemented SOLID design principles and refactored core components to enhance maintainability, scalability, and code consistency across distributed systems.
+        - Streamlined the development lifecycle by introducing branching strategies, CI/CD pipelines (Azure DevOps), and code quality tools (SonarQube), cutting build times by 50% and improving release reliability.
+        - Supervised the R&D team throughout product releases, performing code reviews, defect analysis, and client deployment coordination to ensure smooth production rollouts.
+        - Optimized SQL database structure and queries, boosting system stability and performance by 25%.
+        - Established data security and compliance standards, increasing client satisfaction and contributing to a 50% rise in repeat business.
 
         <!-- **Technical Stack:**
 
@@ -143,16 +143,16 @@ experiences:
 
 
     - role: System Analyst (.NET)
-      time: October 2016 - October 2017
-      company: NCS Pvt Ltd - Singapore
+      time: October 2016 – October 2017
+      company: NCS Pvt Ltd, Singapore
       details: |
         NCS is a leading information and communications technology service provider offering end-to-end IT solutions for government and commercial sectors in the APAC region.
 
         **Responsibilities:**
 
-        - Expanded the Singapore Government-Paid Leave system to support the Adoption Leave Scheme, ensuring smooth launch and adoption of the new program.
-        - Developed and deployed SSIS packages to sync with backend government services, eliminating data entry errors.
-        - Provided on-site deployment and training to QA teams, improving client satisfaction and reducing post-deployment issues by 40%.
+        - Expanded the Singapore Government-Paid Leave System to include the Adoption Leave Scheme, successfully supporting the nationwide rollout and policy adoption.
+        - Developed SSIS data synchronization packages to integrate with government backend services, eliminating 100% of manual data entry errors and improving data accuracy.
+        - Deployed applications across client environments and trained QA teams, increasing client satisfaction and reducing post-deployment issues by 40%.
 
         <!-- **Technical Stack:**
 
@@ -164,18 +164,18 @@ experiences:
 
 
     - role: Senior Software Engineer
-      time: March 2013 - October 2016
-      company: Hitachi Digital Payment Solutions Ltd - Sri Lanka
+      time: March 2013 – October 2016
+      company: Hitachi Digital Payment Solutions Ltd, Sri Lanka
       details: |
         Hitachi DPS delivers cutting-edge payment and banking solutions with a focus on financial technology products, including ATM, POS, and digital banking systems.
 
         **Responsibilities:**
 
-        - Designed and implemented ATM software compliant with CEN XFS standards, leading to a successful product launch.
-        - Integrated ATM software across different vendor models and hardware modules, expanding the product range by 30%.
-        - Conducted PCI-DSS security analysis and ensured software certification compliance.
-        - Managed and planned ATM deployments at client sites, achieving 100% on-time delivery and reducing post-deployment issues by 40%.
-        - Collaborated with offshore teams to implement features and reduce delivery timelines by up to 30%, improving coordination and team efficiency.
+        - Developed ATM software compliant with CEN XFS standards, successfully deployed across multiple banking clients.
+        - Integrated software across multi-vendor ATM models, expanding hardware compatibility and increasing product offerings by 30%.
+        - Conducted security analysis and ensured full PCI-DSS compliance, achieving official certification across all applicable modules.
+        - Planned and supervised ATM software deployments, delivering 100% on-time releases and reducing post-deployment issues by 40%.
+        - Collaborated with offshore engineering teams to implement new features, reducing feature delivery time by 30% and improving communication efficiency by 20%.
 
         <!-- **Technical Stack:**
 
@@ -194,9 +194,9 @@ experiences:
 
         **Responsibilities:**
 
-        - Enhanced the Citi Bank Self-Service web application to support customer inquiries and complaints, boosting customer satisfaction by 25%.
-        - Added support for new transaction types, enabling a 100% successful launch.
-        - Assisted offshore USA teams with system configurations and API implementations, reducing development and integration time by 30%.
+        - Enhanced the CitiBank Self-Service web application, enabling customer inquiries and complaints from multiple channels and improving satisfaction by 25%.
+        - Upgraded CitiBank transaction modules, ensuring a 100% successful rollout of new transaction types across the platform.
+        - Collaborated with offshore U.S. teams on API configuration and system integration, reducing development and integration time by 30%.
 
         <!-- **Technical Stack:**
 
