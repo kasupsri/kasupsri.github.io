@@ -86,16 +86,6 @@ experiences:
         - Collaborated with DevOps to containerize and automate deployments via GitLab pipelines, supporting efficient CI/CD for Dockerized microservices.
         - Won "Best Pitch" at Rauland Hackday for CareNet, a wearable-based remote vitals monitoring prototype delivered in 48 hours.
 
-        **Technical Stack:**
-
-        `Backend:` .NET Core, Clean Architecture, MQTT, RabbitMQ, NuGet Packages
-
-        `Frontend:` React, Angular, SPA Development
-
-        `DevOps:` Docker, GitLab CI/CD, Containerization
-
-        `Architecture:` Microservices, Event-Driven APIs, Event-Bus Contracts
-
     - role: Senior Software Engineer
       time: February 2022 - March 2023
       company: PALO-IT - Singapore
