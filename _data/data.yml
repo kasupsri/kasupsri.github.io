@@ -78,25 +78,23 @@ experiences:
 
         **Responsibilities:**
 
-        - Focused 70% on backend development for the Reach mobile app, designing and enhancing 10+ microservice APIs in .NET Core, improving API delivery speed by 30%.
-        - Integrated SIP-based live audio communication with LiveKit and contributed to deep integration with Rauland NurseCall system for real-time, high-availability emergency response.
-        - Refactored legacy code to async patterns and optimized PostgreSQL queries, improving performance, scalability, and observability with structured logging and OpenTelemetry.
-        - Developed Docker containerized services and collaborated with DevOps to implement GitLab CI/CD pipelines, reducing deployment effort by 50%.
-        - Implemented messaging infrastructure using RabbitMQ and MQTTx; automated maintenance with Hangfire cleanup jobs to enhance reliability.
-        - Implemented Keycloak authentication and device registration in React and Angular Command Center web apps, enabling centralized access control and secure onboarding.
-        - Awarded “Best Pitch” at Rauland Hackday as part of the team for CareNet — a remote patient monitoring system with React dashboard and wearable app streaming real-time vitals.
+        - Designed and developed 9+ .NET Core microservices for the Reach Duress System using Clean Architecture, powering mobile and web clients with scalable, event-driven APIs.
+        - Refactored and enhanced existing services while developing new features and systems; optimized database performance, improved reliability, and enforced consistent coding and architectural standards across microservices.
+        - Developed reusable NuGet packages and defined event-bus contracts using MQTT and RabbitMQ to enable real-time communication between distributed services.
+        - Contributed to architecture design, documentation, and code reviews; drove continuous improvement through issue investigations, feasibility studies, and QA collaboration.
+        - Built and enhanced single-page applications (React/Angular) with secure authentication, modular UI components, and workflow improvements supporting clinicians.
+        - Collaborated with DevOps to containerize and automate deployments via GitLab pipelines, supporting efficient CI/CD for Dockerized microservices.
+        - Won "Best Pitch" at Rauland Hackday for CareNet, a wearable-based remote vitals monitoring prototype delivered in 48 hours.
 
-        <!-- **Technical Stack:**
+        **Technical Stack:**
 
-        `Backend:` .NET Core, PostgreSQL, RabbitMQ, MQTTx, Hangfire, OpenTelemetry
+        `Backend:` .NET Core, Clean Architecture, MQTT, RabbitMQ, NuGet Packages
 
-        `Frontend:` ReactJS, Angular
+        `Frontend:` React, Angular, SPA Development
 
-        `DevOps:` Docker, GitLab CI/CD
+        `DevOps:` Docker, GitLab CI/CD, Containerization
 
-        `Authentication:` Keycloak
-
-        `Communication:` LiveKit (SIP-based) -->
+        `Architecture:` Microservices, Event-Driven APIs, Event-Bus Contracts
 
     - role: Senior Software Engineer
       time: February 2022 - March 2023
@@ -278,59 +276,52 @@ certifications:
 projects:
   title: Technical Stack
   intro: >
-    I have successfully delivered scalable cloud-native solutions using a broad spectrum of modern technologies and platforms.
+    I have successfully delivered scalable cloud-native solutions using a comprehensive range of modern technologies and platforms across the full software development lifecycle.
   assignments:
-    - title: "Cloud & Infrastructure:"
+    - title: "Languages:"
       tagline: >
-        Azure (Functions, App Service, Cosmos DB, SQL Database, Kubernetes Service, Event Grid, Azure AD, Service Bus, DevOps),
-        AWS (S3, EC2, Lambda, DynamoDB, CloudFormation, Cognito),
-        Docker, Kubernetes, Serverless Architecture, Infrastructure as Code (IaC)
+        C#, TypeScript, JavaScript, Go, Python, SQL
 
-    - title: "Backend & Microservices:"
+    - title: "Backend:"
       tagline: >
-        .NET Core, ASP.NET Core, Go, Node.js, RESTful APIs, gRPC, MassTransit, Kafka, RabbitMQ, MQTT, Clean Architecture, DDD, TDD
+        .NET Core, ASP.NET Core, Entity Framework Core, MediatR, gRPC, REST, OpenAPI/Swagger
 
-    - title: "Frontend & SPA:"
+    - title: "Frontend:"
       tagline: >
-        React, Angular, TypeScript, HTML5, SCSS, Bootstrap, SPA Architecture, OAuth2/OpenID Connect, Keycloak
+        React, Angular, HTML5, CSS/SASS, SPA Development
 
-    - title: "Data & Storage:"
+    - title: "Messaging & Eventing:"
       tagline: >
-        PostgreSQL, MS SQL Server, MongoDB, Redis, Entity Framework Core, Azure Cosmos DB
+        Kafka, RabbitMQ, MQTT, Azure Service Bus, Event Hubs
 
-    - title: "DevOps & CI/CD:"
+    - title: "Observability:"
       tagline: >
-        Azure DevOps Pipelines, GitLab CI/CD, GitHub Actions, Git, Docker, Kubernetes, Helm, Monitoring with Prometheus & Grafana
+        OpenTelemetry, Serilog, Prometheus, Grafana, Jaeger, Application Insights
 
-    - title: "Tools & Project Management:"
+    - title: "Cloud & DevOps:"
       tagline: >
-        JIRA, Confluence, Azure Boards, Trello, Postman, Swagger/OpenAPI, GitHub, GitLab, Bitbucket
+        Azure (AKS, Functions, App Service, Event Grid, Key Vault), AWS (EKS, Lambda, API Gateway), Docker, Kubernetes, Terraform, GitLab CI/CD, Azure DevOps
 
+    - title: "Databases & Caching:"
+      tagline: >
+        SQL Server, PostgreSQL, MongoDB, Redis
 
-skills:
-  title: Skills &amp; Proficiency
+    - title: "Security:"
+      tagline: >
+        OAuth2, OpenID Connect, Keycloak, JWT, mTLS
 
-  toolset:
-    - name: C#, .NET Core, ASP.NET
-      level: 95%
+    - title: "Practices:"
+      tagline: >
+        Domain-Driven Design (DDD), Clean Architecture, Microservices, Test-Driven Development (TDD), CI/CD, Agile (Scrum/Kanban)
 
-    - name: TypeScript, JavaScript, Node.js
-      level: 90%
+    - title: "AI & Developer Tools:"
+      tagline: >
+        ChatGPT, Cursor AI, Google Gemini, GitHub Copilot, OpenAI GPT models, Azure OpenAI, LangChain, MCP, Vector Search (Redis/Pinecone) — applied for AI-assisted development, architecture reasoning, and intelligent workflows (RAG, embeddings, documentation automation)
 
-    - name: ReactJS, Angular
-      level: 85%
+    - title: "Tooling & Productivity:"
+      tagline: >
+        Visual Studio, VS Code, Postman, Fiddler, Swagger UI, Git (GitHub/GitLab/Bitbucket), Azure Monitor, SonarQube, Notion, Jira, Confluence
 
-    - name: SQL, PostgreSQL, MS SQL
-      level: 75%
-
-    - name: Docker, Kubernetes
-      level: 75%
-
-    - name: RabbitMQ, MQTT, Kafka
-      level: 70%
-
-    - name: Azure, AWS
-      level: 80%
 
 footer: >
   © 2025 Kasup Sri Bandara - Built with passion. All rights reserved.
