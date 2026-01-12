@@ -270,15 +270,15 @@ projects:
   assignments:
     - title: "Languages:"
       tagline: >
-        C#, TypeScript, JavaScript, Go, Python, SQL
+        C#, TypeScript, SQL, Go, Python, JavaScript
 
     - title: "Backend:"
       tagline: >
-        .NET Core, ASP.NET Core, Entity Framework Core, MediatR, gRPC, REST, OpenAPI/Swagger
+        .NET Core, ASP.NET Core, REST APIs, OpenAPI/Swagger, gRPC, Entity Framework Core
 
     - title: "Frontend:"
       tagline: >
-        React, Angular, HTML5, CSS/SASS, SPA Development
+        React, Angular (SPA, enterprise-scale), HTML5, CSS/SASS
 
     - title: "Messaging & Eventing:"
       tagline: >
@@ -304,9 +304,9 @@ projects:
       tagline: >
         Domain-Driven Design (DDD), Clean Architecture, Microservices, Test-Driven Development (TDD), CI/CD, Agile (Scrum/Kanban)
 
-    - title: "AI & Developer Tools:"
+    - title: "AI-assisted Development:"
       tagline: >
-        ChatGPT, Cursor AI, Google Gemini, GitHub Copilot, OpenAI GPT models, Azure OpenAI, LangChain, MCP, Vector Search (Redis/Pinecone) — applied for AI-assisted development, architecture reasoning, and intelligent workflows (RAG, embeddings, documentation automation)
+        ChatGPT, Cursor, Azure OpenAI APIs, GitHub Copilot Enterprise - structured prompting for code generation, refactoring, test creation, documentation, and architectural reasoning
 
     - title: "Tooling & Productivity:"
       tagline: >
